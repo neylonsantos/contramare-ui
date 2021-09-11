@@ -1,0 +1,130 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <link rel="icon" href="/assets/base/contramare-icon-light.svg" sizes="32x32" type="image/png">
+  <title>Contramaré</title>
+
+  <meta name="author" content="Neylon Santos">
+  <meta name="robots" content="noodp">
+	<meta name="reply-to" content="contato@contramare.page">
+
+  <!-- BOOTSTRAP -->
+  <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.1.0/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-KyZXEAg3QhqLMpG8r+8fhAXLRk2vvoC2f3B09zVXn8CA5QIVfZOJ3BCsw2P0p/We" crossorigin="anonymous">
+  <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.5.0/font/bootstrap-icons.css">
+  <script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.9.3/dist/umd/popper.min.js" integrity="sha384-eMNCOe7tC1doHpGoWe/6oMVemdAVTMs2xqW4mwXrXsW0L84Iytr2wi5v2QjrP/xp" crossorigin="anonymous"></script>
+  <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.1.0/dist/js/bootstrap.min.js" integrity="sha384-cn7l7gDp0eyniUwwAZgrzD06kc/tftFf19TOAs2zVinnD/C7E91j9yyk5//jjpt/" crossorigin="anonymous"></script>
+
+  <!-- Fonts & Icons -->
+  <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Comfortaa:wght@300;400;500;600;700">
+  <link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
+
+  <!--MY FILES -->
+  <script src="/assets/js/addons.js"></script>
+  <link rel="stylesheet" href="/assets/css/header.css">
+  <link rel="stylesheet" href="/assets/css/main.css">
+  <link rel="stylesheet" href="/assets/css/footer.css">
+
+  <!-- MY STYLE -->
+  <style>
+  </style>
+</head>
+<body>
+
+  <header class="masterHeader">
+
+    <div class="subHeader container pt-4 pb-3 d-flex flex-column align-items-center">
+
+      <div class="logo">
+        <!-- <img src="/assets/base/contramare-logo-name-dark.svg" class="img-fluid" width="200px" height="auto" alt=""> -->
+      </div>
+
+      <hr>
+
+      <button onclick="show()" class="menuBtn" type="submit"> <i class="bi bi-list"></i> </button>
+
+      <nav class="menu mt-2">
+        <ul id="menu" class="nav justify-content-end">
+          <li class="nav-item">
+            <a class="nav-link" aria-current="page" href="#">INÍCIO</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="#">CONTATO</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="#">BLOG</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="#">SOBRE</a>
+          </li>
+        </ul>
+      </nav>
+    </div>
+  </header>
+
+  <div class="main container">
+
+    <div class="d-flex flex-column align-items-center">
+      <div class="apresentation d-flex flex-column align-items-center">
+        <img src="/assets/base/contramare-logo-icon-name-dark-2.svg" class="img-fluid pb-5" width="650px" height="auto" alt="">
+        <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Eius provident quas voluptatem aliquam iste expedita, hic ea deleniti itaque voluptas, odit neque obcaecati atque consequuntur perferendis deserunt earum tempora maxime!</p>
+        <div class="socialIcons container d-flex flex-row justify-content-evenly">
+            <p style="font-size: 25px;"><i class="bi bi-instagram"></i></p>
+            <p style="font-size: 25px;"><i class="bi bi-facebook"></i></p>
+            <p style="font-size: 25px;"><i class="bi bi-twitter"></i></p>
+        </div>
+      </div>
+    </div>
+
+    <div class="lastPublications container px-0 d-flex flex-column align-items-center">
+      <h2 class="text-center">Últimos posts</h2>
+
+      <hr class="mb-5">
+
+      <div class="card">
+        <div class="card-body">
+          <div class="d-flex justify-content-between">
+            <h5 class="card-title">Card title</h5>
+            <p class="card-text"> <small class="text-muted"> <i class="bi bi-stopwatch"></i> 10.SET.2021</small></p>
+          </div>
+          <p class="card-text mb-2">With supporting text below as a natural lead-in to additional content.</p>
+          <p class="category"> Category </p>
+        </div>
+      </div>
+
+      <div class="card">
+        <div class="card-body">
+          <div class="d-flex justify-content-between">
+            <h5 class="card-title">Card title</h5>
+            <p class="card-text"> <small class="text-muted"> <i class="bi bi-stopwatch"></i> 10.SET.2021</small></p>
+          </div>
+          <p class="card-text mb-2">With supporting text below as a natural lead-in to additional content.</p>
+          <p class="category"> Category </p>
+        </div>
+      </div>
+
+      <div class="card">
+        <div class="card-body">
+          <div class="d-flex justify-content-between">
+            <h5 class="card-title">Card title</h5>
+            <p class="card-text"> <small class="text-muted"> <i class="bi bi-stopwatch"></i> 10.SET.2021</small></p>
+          </div>
+          <p class="card-text mb-2">With supporting text below as a natural lead-in to additional content.</p>
+          <p class="category"> Category </p>
+        </div>
+      </div>
+
+      <button type="button" class="morePostsBtn mt-1">Todos os posts</button>
+
+    </div>
+  </div>
+
+  <footer>
+    <div class="masterFooter container-fluid mt-5 pt-5 pb-4">
+      <p>&reg Todos os direitos reservados</p>
+    </div>
+  </footer>
+</body>
+</html>
